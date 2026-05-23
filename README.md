@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Spotify Viewer
 
-## Getting Started
+A web app for visualizing a user's Spotify listening data, including top artists, top tracks, and music taste insights through a clean, responsive dashboard.
 
-First, run the development server:
+The project uses the Spotify Web API to turn personal music data into an interactive profile-style experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Live Site
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[Spotify Viewer](https://your-live-link-here.com)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Why I Built It
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I wanted to build a polished API-driven web app that works with real user data, authentication, external API limits, and a clean dashboard interface. Spotify data is familiar and visual, which made it a good project for practicing API integration and user-focused frontend design.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- Spotify account connection
+- Top artists and tracks display
+- Listening profile / music taste overview
+- Responsive dashboard UI
+- Clean card-based layout
+- External API integration with Spotify
+- Deployed web app experience
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Frontend:** Next.js, React, TypeScript
+- **Styling:** Tailwind CSS
+- **API:** Spotify Web API
+- **Authentication:** Spotify OAuth
+- **Deployment:** Vercel
 
-## Deploy on Vercel
+## Engineering Highlights
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Integrated OAuth-based Spotify authentication
+- Fetched and displayed personalized user music data
+- Designed reusable UI components for artist, track, and stat cards
+- Handled asynchronous API requests and loading states
+- Built a responsive interface optimized for quick visual scanning
+- Managed API-driven state across the user experience
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## What I Learned
+
+This project strengthened my ability to work with third-party APIs, authentication flows, asynchronous data fetching, and dashboard-style frontend design. It also gave me experience building a real user-facing app around external service data.
+
+## Future Improvements
+
+- Add playlist analysis
+- Add listening history trends
+- Improve error handling for expired sessions
+- Add data visualizations and charts
+- Add shareable music profile pages
+- Improve rate-limit handling and caching
