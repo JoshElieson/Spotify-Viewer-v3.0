@@ -6,7 +6,7 @@ The project uses the Spotify Web API to turn personal music data into an interac
 
 ## Live Site
 
-[Spotify Viewer](https://your-live-link-here.com)
+[Spotify Viewer](https://spotify-viewer-v3-0.vercel.app/)
 
 ## Why I Built It
 
